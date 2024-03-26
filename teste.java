@@ -32,7 +32,8 @@ public class teste {
         //System.out.println(nome3);
         //System.out.println(nome3.equals(nome1));
         String nome4 = nome3;
-        System.out.println(nome4 == nome3);
+        System.out.println(nome3.equals(nome4));
+        
     }
 }
 
