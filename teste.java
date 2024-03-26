@@ -33,7 +33,21 @@ public class teste {
         //System.out.println(nome3.equals(nome1));
         String nome4 = nome3;
         System.out.println(nome3.equals(nome4));
-        
+        int numero1 = 130;
+        Integer numero2 = 130;
+        System.out.println(numero2.toString());
+        System.out.println(numero1 == numero2);
+
+        int num1 = 1;
+        int num2 = 1;
+        if (num1 == 2 & num2  ==2){
+            System.out.println("VERDAEIROOOOO");
+        }
+        else{
+            System.out.println("FALSSOO");
+        }
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
     }
 }
 
