@@ -2,13 +2,15 @@ package TvAtividade.Program;
 
 import TvAtividade.Entidades.Tv;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Tv tv = new Tv(true, 0, 20);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Tv tv = new Tv();
         int opcao;
+
         do {
 
         System.out.println("""
@@ -25,35 +27,37 @@ public class Program {
         switch (opcao){
             case 1:
                 tv.aumentarVolume();
-                System.out.println("Volume atual: " + tv.getVolume());
                 break;
             case 2:
                 tv.diminuirVolume();
-                System.out.println("Volume atual: " + tv.getVolume());
                 break;
             case 3:
-                tv.ligarTv();
-                System.out.println("Tv ligada");
-                break;
+                System.out.println("Escolhe um volume:");
+                int volume = scanner.nextInt();
+                tv.escolherVolume(volume);
+                break; 
             case 4:
-                tv.desligarTv();
-                System.out.println("Tv desligada");
+                tv.ligarTv();
                 break;
             case 5:
-                tv.passarCanal();
-                System.out.println("Canal atual: " + tv.getCanal());
+                tv.desligarTv();
                 break;
             case 6:
-                tv.voltarCanal();
-                System.out.println("Canal atual: " + tv.getCanal());
+                tv.passarCanal();
                 break;
             case 7:
+                tv.voltarCanal();
+                break;
+            case 8:
+                System.out.println("Escolha um canal que deseja:");
+                int canal = scanner.nextInt();
+                tv.mudarCanal(canal);
+                break;
+            case 9:
                 System.out.println("Saindo");
                 return;
             default:
                 System.out.println("Opcao nao existente");
-
-
         }
         }while (true);
     }
