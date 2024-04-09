@@ -57,7 +57,7 @@ public class Program {
                 System.out.println("Saindo");
                 return;
             default:
-                System.out.println("Opcao nao existente");
+                System.out.println("Opcao nao existe");
         }
         }while (true);
     }
