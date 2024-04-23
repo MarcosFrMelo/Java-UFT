@@ -1,4 +1,4 @@
-package lanchonete.model.entidades;
+package lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
     public void controlarEntrada(){

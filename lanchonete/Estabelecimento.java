@@ -1,15 +1,16 @@
-package lanchonete.application;
+package lanchonete;
 
-import lanchonete.model.entidades.Almoxarife;
-import lanchonete.model.entidades.Atendente;
-import lanchonete.model.entidades.Cliente;
-import lanchonete.model.entidades.Cozinheiro;
+import lanchonete.atendimento.Atendente;
+import lanchonete.atendimento.cozinha.Almoxarife;
+import lanchonete.atendimento.cozinha.Cozinheiro;
+import lanchonete.areaCliente.Cliente;;
 
 public class Estabelecimento {
     public static void main(String[] args) {
         Cozinheiro cozinheiro = new Cozinheiro();
         //
         cozinheiro.lavarIngredientes();
+        
         cozinheiro.baterVitaminaLiquidificador();
         cozinheiro.selecionarIngredientesLanche();
         cozinheiro.prepararLanche();

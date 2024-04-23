@@ -1,4 +1,6 @@
-package lanchonete.model.entidades;
+package lanchonete.atendimento.cozinha;
+
+import lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
     public void adicionarLancheNoBalcao(){
@@ -35,7 +37,7 @@ public class Cozinheiro {
         System.out.println("SELECIONADO FRUTA, LEITE E SUCO");
     }
 
-    public void lavarIngredientes(){
+    void lavarIngredientes(){
         System.out.println("LAVANDO INGREDIENTES");
     }
 

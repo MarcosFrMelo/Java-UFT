@@ -1,4 +1,4 @@
-package lanchonete.model.entidades;
+package lanchonete.atendimento;
 
 public class Atendente {
     public void servindoMesa(){

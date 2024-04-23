@@ -1,4 +1,4 @@
-package lanchonete.model.entidades;
+package lanchonete.areaCliente;
 
 public class Cliente {
     public void escolherLanches(){
