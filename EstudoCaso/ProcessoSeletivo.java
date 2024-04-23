@@ -39,11 +39,11 @@ public class ProcessoSeletivo {
         
     public static int caso1(Double salarioDoCandidato){
         if (2000.00 > salarioDoCandidato) 
-        return 1;
-            else if (2000.00 < salarioDoCandidato)
-        return 2;
+            return 1;
+        else if (2000.00 < salarioDoCandidato)
+            return 2;
         else
-        return 3;
+            return 3;
     }
         
     public static Double caso2(){

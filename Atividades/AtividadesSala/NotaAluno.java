@@ -1,4 +1,4 @@
-package AtividadesSala;
+package Atividades.AtividadesSala;
 //alt shift "o" para importar automaticamente 
 import java.util.Scanner;
 

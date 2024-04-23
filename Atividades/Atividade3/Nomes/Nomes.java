@@ -1,4 +1,4 @@
-package Atividade3.Nomes;
+package Atividades.Atividade3.Nomes;
 
 import java.util.Scanner;
 

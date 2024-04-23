@@ -1,4 +1,4 @@
-package Atividade2.PedraPapelAt;
+package Atividades.Atividade2.PedraPapelAt;
 
 import java.util.Scanner;
 

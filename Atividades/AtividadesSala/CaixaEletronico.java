@@ -1,4 +1,4 @@
-package AtividadesSala;
+package Atividades.AtividadesSala;
 
 public class CaixaEletronico {
     public static void main(String[] args) {
