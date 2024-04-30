@@ -9,7 +9,7 @@ public class Estabelecimento {
     public static void main(String[] args) {
         Cozinheiro cozinheiro = new Cozinheiro();
         //
-        cozinheiro.lavarIngredientes();
+        //cozinheiro.lavarIngredientes();
         
         cozinheiro.baterVitaminaLiquidificador();
         cozinheiro.selecionarIngredientesLanche();
