@@ -3,7 +3,7 @@ package lanchonete;
 import lanchonete.atendimento.Atendente;
 import lanchonete.atendimento.cozinha.Almoxarife;
 import lanchonete.atendimento.cozinha.Cozinheiro;
-import lanchonete.areaCliente.Cliente;;
+import lanchonete.areaCliente.Cliente;
 
 public class Estabelecimento {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Estabelecimento {
         cozinheiro.prepararVitamina();
         //
         cozinheiro.adicionarComboNoBalcao();
-        cozinheiro.adicionarLancheNoBalcao();
+        cozinheiro.adicionarLancheNoBalcao(); 
         cozinheiro.adicionarSucoNoBalcao();
         cozinheiro.fritarIngredientesLanche();
         cozinheiro.prepararCombo();
