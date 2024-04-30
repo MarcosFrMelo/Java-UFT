@@ -62,10 +62,8 @@ public class ProcessoSeletivo {
         for(int i = 0; i < 3; i++){
             numeroTentativa = ThreadLocalRandom.current().nextInt(0, 1);
         }
-        if () {
-            
-        }
+        //if () {
 
+        //}
     }
-
 }
