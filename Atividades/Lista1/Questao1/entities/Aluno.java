@@ -43,7 +43,7 @@ public class Aluno {
     }
 
     public double calcularMedia(){
-        double media = (notaProva1 + 2.5) + (notaProva2 + 2.5) + (notaTrabalho + 2);
+        double media = ((notaProva1 * 2.5) + (notaProva2 * 2.5) + (notaTrabalho * 2)) / 7;
         return media;
     }
 

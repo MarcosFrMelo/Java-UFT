@@ -34,8 +34,14 @@ public class Main {
         aluno.setNotaTrabalho(trabalho);
 
         System.out.println("Media final do aluno: " + aluno.calcularMedia());
-        if (aluno.calcularMedia() >= 7) {
-            
-        }
+
+        double media = aluno.calcularMedia();
+        if (media >= 7)
+            System.out.println("Passou direto");
+        else if (media >= 4)
+            System.out.println("Ficou de Prova Final\nNota necessaria para passar na prova final é: \" + aluno.calculoProvaFinal()");
+        else
+            System.out.println("Reprovou direto");
+        scanner.close();
     }
 }
