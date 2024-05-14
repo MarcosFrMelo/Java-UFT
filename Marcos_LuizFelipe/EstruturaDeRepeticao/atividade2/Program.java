@@ -1,4 +1,4 @@
-package atividadeBasica.atividade2;
+package EstruturaDeRepeticao.atividade2;
 
 public class Program {
     public static void main(String[] args) {
