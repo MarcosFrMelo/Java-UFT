@@ -31,11 +31,9 @@ public class Polinomio {
     }
     
     public double calularPolinomio(double x){
-
         double soma = 0;
-        
         for (Termo atual : termos) {
-            soma = atual.calcula(x);
+            soma += atual.calcula(x);
         }
         return soma;
     }
