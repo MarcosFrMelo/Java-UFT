@@ -38,6 +38,9 @@ public class Programa {
                     else
                         System.out.println("Insira pelo menos um elemento no polinomio");
                         break;
+                case 3:
+                    scanner.close();
+                    return;    
                 default:
                     System.out.println("sem op");
                     break;
