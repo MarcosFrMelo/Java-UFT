@@ -3,23 +3,21 @@ package questao2.entidades;
 import questao1.entidades.Data;
 
 public class Voo {
-    protected Integer[] assentos = new Integer[10000];
+    protected Integer[] assentos;
     protected Data data = new Data();
     protected int passageiros;
     protected int numeroDoVoo;
     protected int numeroMaximoPassagerio = 100;
     
-    public Voo(Integer[] assentos, Data data, int passageiros, int numeroDoVoo, int numeroMaximoPassagerio) {
-        this.assentos = assentos;
+    public Voo(int assentos, Data data, int passageiros, int numeroDoVoo, int numeroMaximoPassagerio) {
+        this.assentos = new Integer[assentos];
         this.data = data;
         this.passageiros = passageiros;
         this.numeroDoVoo = numeroDoVoo;
         this.numeroMaximoPassagerio = numeroMaximoPassagerio;
     }
     public Voo() {
-        for (int i = 0; i < assentos.length; i++) {
-            assentos[i] = 0;
-        }
+        
     }
     public Integer[] getAssentos() {
         return assentos;
